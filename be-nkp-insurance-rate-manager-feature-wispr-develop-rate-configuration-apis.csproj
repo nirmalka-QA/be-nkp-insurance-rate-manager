@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>be_nkp_insurance_rate_manager_feature_wispr_develop_rate_configuration_apis</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+      <Compile Include="RateRulesUpdate.cs" />
+    <Compile Include="BillingUpdates.cs" />
+    <Compile Include="RateUpdateHistory.cs" />
+  </ItemGroup>
+
+</Project>

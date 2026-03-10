@@ -1,0 +1,6 @@
+@be_nkp_insurance_rate_manager_feature_wispr_develop_rate_configuration_apis_HostAddress = http://localhost:5089
+
+GET {{be_nkp_insurance_rate_manager_feature_wispr_develop_rate_configuration_apis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
